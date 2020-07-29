@@ -1,0 +1,142 @@
+body {font-family: 'Playfair Display', serif;}
+
+.alert-conatiner .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wide-alert .col-12 {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color:#eec802;
+}
+
+.callout-container {
+    height: 100vh; 
+  background: url(https://image.shutterstock.com/image-photo/barman-pouring-whiskey-glass-beautiful-600w-1528261268.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* page headers */
+
+.page-header {
+    margin-top: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: rgb(235, 185, 92);
+}
+
+.block-divider--short {
+    width: 37.5px;
+}
+
+/* navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.gw2 {
+    color:rgb(195, 184, 184);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*jumbotron*/
+
+.jumbotron { 
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 40px;
+    color: lightgrey;}
+
+.jumbotron small {
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+    color: rgbrgb(rgb(184, 190, 195)
+}
+
+/* butons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width:160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
